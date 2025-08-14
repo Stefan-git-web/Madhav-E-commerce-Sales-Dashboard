@@ -96,7 +96,9 @@ Used consistent color mapping for categories
 
 📊 Dashboard Preview
 
-📄 View PDF Insights
+## 📊 Dashboard Preview  
+[![Dashboard Preview](https://github.com/Stefan-git-web/Madhav-E-commerce-Sales-Dashboard/blob/main/Screenshot%202025-08-14%20164452.png)](https://github.com/Stefan-git-web/Madhav-E-commerce-Sales-Dashboard/blob/main/Madhav_Ecommerce_Dashboard_Insights.pdf)
+
 
 🛠 Tools Used
 
