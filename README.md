@@ -1,9 +1,9 @@
-📊 Madhav Ecommerce Sales Dashboard – Power BI
+# 📊 Madhav Ecommerce Sales Dashboard – Power BI
 
 An interactive Ecommerce Sales Dashboard built in Power BI to analyze sales performance, profits, and customer purchasing behavior.
 It delivers actionable insights through KPIs, charts, and filters, empowering businesses to make data-driven decisions.
 
-🚀 Features
+# 🚀 Features
 
 KPIs: Total Sales Amount, Profit, Quantity Sold, Average Order Value (AOV)
 
@@ -21,7 +21,7 @@ Sub-category Profit Analysis
 
 Interactive Quarter Filter & Global Filter
 
-📂 Dataset
+# 📂 Dataset
 
 The dataset includes:
 
@@ -37,8 +37,8 @@ Payment Mode
 
 Location (State)
 
-🛠 Steps Followed
-1️⃣ Data Loading & Cleaning
+# 🛠 Steps Followed
+# 1️⃣ Data Loading & Cleaning
 
 Imported dataset into Power BI
 
@@ -46,13 +46,13 @@ Checked for missing/null values
 
 Verified correct data types (Date, Text, Number)
 
-2️⃣ Data Modelling
+# 2️⃣ Data Modelling
 
 Created relationships between fact and dimension tables
 
 Implemented Star Schema for optimized reporting
 
-3️⃣ DAX Measures
+# 3️⃣ DAX Measures
 -- Total Amount
 Amount = SUM(Sales[Amount])
 
@@ -74,7 +74,7 @@ Quantity % = DIVIDE(SUM(Sales[Quantity]), CALCULATE(SUM(Sales[Quantity]), ALL(Sa
 -- % Quantity by Payment Mode
 Payment Mode % = DIVIDE(SUM(Sales[Quantity]), CALCULATE(SUM(Sales[Quantity]), ALL(Sales[PaymentMode])), 0)
 
-4️⃣ Visualization
+# 4️⃣ Visualization
 
 Card visuals for KPIs
 
@@ -86,7 +86,7 @@ Clustered column chart for Monthly Profit
 
 Slicers for Quarter & All-field selection
 
-5️⃣ Formatting
+# 5️⃣ Formatting
 
 Applied dark theme with high-contrast colors
 
@@ -94,13 +94,14 @@ Added data labels and legends for clarity
 
 Used consistent color mapping for categories
 
-📊 Dashboard Preview
 
 ## 📊 Dashboard Preview  
-[![Dashboard Preview](https://github.com/Stefan-git-web/Madhav-E-commerce-Sales-Dashboard/blob/main/Screenshot%202025-08-14%20164452.png)](https://github.com/Stefan-git-web/Madhav-E-commerce-Sales-Dashboard/blob/main/Madhav_Ecommerce_Dashboard_Insights.pdf)
+[Dashboard PDF](https://github.com/Stefan-git-web/Madhav-E-commerce-Sales-Dashboard/blob/main/Madhav_Ecommerce_Dashboard_Insights.pdf)  
+[Dashboard Image](https://github.com/Stefan-git-web/Madhav-E-commerce-Sales-Dashboard/blob/main/Screenshot%202025-08-14%20164452.png)
 
 
-🛠 Tools Used
+
+# 🛠 Tools Used
 
 Power BI – Data modeling & visualization
 
